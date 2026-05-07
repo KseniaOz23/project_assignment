@@ -15,4 +15,4 @@ ETL-процесс загружает данные из CSV файлов в Post
 4. Логирование в таблицу LOGS.ETL_LOG
 
 ## Демонстрация работы
-[Видео демонстрации](ссылка_на_видео)
+[Видео демонстрации](https://drive.google.com/file/d/12y1jcYSiARZ92pufHyEpxIi3-c3CzpUN/view?usp=sharing)
