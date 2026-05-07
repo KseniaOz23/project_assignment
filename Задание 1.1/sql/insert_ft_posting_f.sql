@@ -1,0 +1,12 @@
+TRUNCATE TABLE DS.FT_POSTING_F;
+
+INSERT INTO DS.FT_POSTING_F 
+(oper_date, credit_account_rk, debet_account_rk, credit_amount, debet_amount)
+SELECT 
+    OPER_DATE, 
+    CREDIT_ACCOUNT_RK, 
+    DEBET_ACCOUNT_RK, 
+    CREDIT_AMOUNT, 
+    DEBET_AMOUNT
+FROM temp_table
+WHERE CREDIT_ACCOUNT_RK IS NOT NULL AND DEBET_ACCOUNT_RK IS NOT NULL
