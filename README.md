@@ -38,4 +38,4 @@ ETL-процесс загружает данные из CSV файлов в Post
 - `export_f101.py` — экспорт данных из dm.dm_f101_round_f в CSV
 - `import_f101.py` — импорт из CSV в dm.dm_f101_round_f_v2
 ## Демонстрация работы
-[Видео задание 1.3](https://drive.google.com/file/d/1uzJekL6Alds7x3iC2GHoETFsG9zKBIUO/view?usp=sharing)
+[Видео задание 1.4](https://drive.google.com/file/d/1uzJekL6Alds7x3iC2GHoETFsG9zKBIUO/view?usp=sharing)
