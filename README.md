@@ -18,8 +18,8 @@ ETL-процесс загружает данные из CSV файлов в Post
 ## Описание 
 Расчет ежедневных остатков и оборотов по счетам.
 ## Файлы
-- Витрина_оборотов.sql — создание таблицы dm.dm_account_turnover_f и процедуры ds.fill_account_turnover_f
-- Витрина_остатков.sql — создание таблицы dm.dm_account_balance_f и процедуры ds.fill_account_balance_f
+- `Витрина_оборотов.sql` — создание таблицы dm.dm_account_turnover_f и процедуры ds.fill_account_turnover_f
+- `Витрина_остатков.sql` — создание таблицы dm.dm_account_balance_f и процедуры ds.fill_account_balance_f
 ## Демонстрация работы
 
 
@@ -27,7 +27,7 @@ ETL-процесс загружает данные из CSV файлов в Post
 ## Описание 
 Агрегированный отчет по балансовым счетам.
 ## Файлы
-- Расчет_101_формы.sql — создание таблицы dm.dm_f101_round_f и процедуры dm.fill_f101_round_f
+- `Расчет_101_формы.sql` — создание таблицы dm.dm_f101_round_f и процедуры dm.fill_f101_round_f
 ## Демонстрация работы
 
 
@@ -35,6 +35,6 @@ ETL-процесс загружает данные из CSV файлов в Post
 ## Описание
 Выгрузка формы 101 в CSV и обратный импорт в БД.
 ## Файлы
-- export_f101.py — экспорт данных из dm.dm_f101_round_f в CSV
-- import_f101.py — импорт из CSV в dm.dm_f101_round_f_v2
+- `export_f101.py` — экспорт данных из dm.dm_f101_round_f в CSV
+- `import_f101.py` — импорт из CSV в dm.dm_f101_round_f_v2
 ## Демонстрация работы
