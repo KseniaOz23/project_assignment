@@ -11,7 +11,7 @@ ETL-процесс загружает данные из CSV файлов в Post
 3. Upsert (вставка или обновление) при конфликтах
 4. Логирование в таблицу LOGS.ETL_LOG
 ## Демонстрация работы
-[Видео демонстрации](https://drive.google.com/file/d/12y1jcYSiARZ92pufHyEpxIi3-c3CzpUN/view?usp=sharing)
+[Видео задание 1.1](https://drive.google.com/file/d/12y1jcYSiARZ92pufHyEpxIi3-c3CzpUN/view?usp=sharing)
 
 
 # Задание 1.2: Витрины остатков и оборотов
@@ -21,7 +21,7 @@ ETL-процесс загружает данные из CSV файлов в Post
 - `Витрина_оборотов.sql` — создание таблицы dm.dm_account_turnover_f и процедуры ds.fill_account_turnover_f
 - `Витрина_остатков.sql` — создание таблицы dm.dm_account_balance_f и процедуры ds.fill_account_balance_f
 ## Демонстрация работы
-
+[Видео задание 1.2](https://drive.google.com/file/d/12Jw25BOzQ73HPqAmvqHRy4AY_jiqwL17/view?usp=sharing)
 
 # Задание 1.3: Расчет 101 формы
 ## Описание 
@@ -29,7 +29,7 @@ ETL-процесс загружает данные из CSV файлов в Post
 ## Файлы
 - `Расчет_101_формы.sql` — создание таблицы dm.dm_f101_round_f и процедуры dm.fill_f101_round_f
 ## Демонстрация работы
-
+[Видео задание 1.3](https://drive.google.com/file/d/1chPgbjLmknkjZN5apVobNignHL7tK5q3/view?usp=sharing)
 
 # Задание 1.4: Экспорт и импорт данных
 ## Описание
@@ -38,3 +38,4 @@ ETL-процесс загружает данные из CSV файлов в Post
 - `export_f101.py` — экспорт данных из dm.dm_f101_round_f в CSV
 - `import_f101.py` — импорт из CSV в dm.dm_f101_round_f_v2
 ## Демонстрация работы
+[Видео задание 1.3](https://drive.google.com/file/d/1uzJekL6Alds7x3iC2GHoETFsG9zKBIUO/view?usp=sharing)
